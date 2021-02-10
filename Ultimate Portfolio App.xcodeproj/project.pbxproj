@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2741731925D41BFE0093F841 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2741731825D41BFE0093F841 /* Item-CoreDataHelpers.swift */; };
+		2741731C25D41D860093F841 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2741731B25D41D860093F841 /* Project-CoreDataHelpers.swift */; };
 		27B1448425D2B9D000FFDE00 /* Ultimate_Portfolio_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1448325D2B9D000FFDE00 /* Ultimate_Portfolio_AppApp.swift */; };
 		27B1448625D2B9D000FFDE00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1448525D2B9D000FFDE00 /* ContentView.swift */; };
 		27B1448825D2B9D100FFDE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B1448725D2B9D100FFDE00 /* Assets.xcassets */; };
@@ -14,9 +16,13 @@
 		27B1449525D2C4EF00FFDE00 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B1449325D2C4EF00FFDE00 /* Main.xcdatamodeld */; };
 		27B1449825D2CDD600FFDE00 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1449725D2CDD600FFDE00 /* DataController.swift */; };
 		27B1449E25D2FD5100FFDE00 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B1449D25D2FD5100FFDE00 /* CloudKit.framework */; };
+		27B144A225D3F7B300FFDE00 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B144A125D3F7B300FFDE00 /* HomeView.swift */; };
+		27B144A625D3F8F900FFDE00 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B144A525D3F8F900FFDE00 /* ProjectsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2741731825D41BFE0093F841 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		2741731B25D41D860093F841 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		27B1448025D2B9D000FFDE00 /* Ultimate Portfolio App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Portfolio App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B1448325D2B9D000FFDE00 /* Ultimate_Portfolio_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultimate_Portfolio_AppApp.swift; sourceTree = "<group>"; };
 		27B1448525D2B9D000FFDE00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +33,8 @@
 		27B1449725D2CDD600FFDE00 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		27B1449A25D2FD2700FFDE00 /* Ultimate Portfolio App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ultimate Portfolio App.entitlements"; sourceTree = "<group>"; };
 		27B1449D25D2FD5100FFDE00 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		27B144A125D3F7B300FFDE00 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		27B144A525D3F8F900FFDE00 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				27B1449A25D2FD2700FFDE00 /* Ultimate Portfolio App.entitlements */,
 				27B1448325D2B9D000FFDE00 /* Ultimate_Portfolio_AppApp.swift */,
 				27B1448525D2B9D000FFDE00 /* ContentView.swift */,
+				2741731825D41BFE0093F841 /* Item-CoreDataHelpers.swift */,
+				2741731B25D41D860093F841 /* Project-CoreDataHelpers.swift */,
+				27B144A125D3F7B300FFDE00 /* HomeView.swift */,
+				27B144A525D3F8F900FFDE00 /* ProjectsView.swift */,
 				27B1448725D2B9D100FFDE00 /* Assets.xcassets */,
 				27B1448C25D2B9D100FFDE00 /* Info.plist */,
 				27B1448925D2B9D100FFDE00 /* Preview Content */,
@@ -158,10 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B144A625D3F8F900FFDE00 /* ProjectsView.swift in Sources */,
 				27B1449525D2C4EF00FFDE00 /* Main.xcdatamodeld in Sources */,
+				2741731C25D41D860093F841 /* Project-CoreDataHelpers.swift in Sources */,
 				27B1449825D2CDD600FFDE00 /* DataController.swift in Sources */,
 				27B1448625D2B9D000FFDE00 /* ContentView.swift in Sources */,
+				27B144A225D3F7B300FFDE00 /* HomeView.swift in Sources */,
 				27B1448425D2B9D000FFDE00 /* Ultimate_Portfolio_AppApp.swift in Sources */,
+				2741731925D41BFE0093F841 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
